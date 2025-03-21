@@ -9,17 +9,22 @@
 </head>
 
 <body>
-    <main class="container mx-auto">
-        <nav class="flex justify-center border-b-2 p-8">
-            <h1 class="font-bold text-4xl">Blog</h1>
+    <main class="container mx-auto px-16 py-16 ">
+        <nav class="relative flex justify-center overflow-hidden border-b-2 p-8 py-16 bg-gradient-to-tl from-black to-gray-800 rounded-xl flex-col items-center">
+            <!-- Circle Blur Gradient -->
+            <div class="absolute z-10 inset-0 -left-24 top-16 opacity-30 bg-gradient-to-r from-blue-500 to-gray-500 rounded-full blur-3xl w-96 h-96"></div>
+
+            <div class="absolute z-10 -right-44 bottom-24 opacity-30 bg-gradient-to-r from-blue-500 to-gray-500 rounded-full blur-3xl w-96 h-96"></div>
+
+            <h1 class="font-bold text-6xl text-white"> Welcome to my Blog! 🏀</h1>
+            <p class="text-gray-200 mt-6 text-2xl">Exploring exciting NBA headlines, analyzing games, and predicting future matchups.</p>
         </nav>
 
-
-
-        <section class="w-full flex justify-around">
-            <section class="flex justify-center mt-16 w-1/4">
+        <h1 class="mt-16 text-5xl font-bold">Newest Articles</h1>
+        <section class="w-full flex justify-between bg-white">
+            <section class="flex justify-center mt-8 w-2/5">
                 <div class="flex flex-col rounded-lg shadow-md border-2">
-                    <img class="rounded-md" src="./assets/images/giddey.jpeg" alt="Josh Giddey" />
+                    <img class="rounded-md h-96 w-full object-cover" src="./assets/images/giddey.jpeg" alt="Josh Giddey" />
                     
                     <div class="p-8 flex flex-col justify-start">
                         <div class="flex gap-2 items-center">
@@ -27,44 +32,50 @@
                             <p class="text-gray-500">March 19th, 2025</p>
                         </div>
                         <h1 class="font-bold text-4xl mt-2">Josh Giddey's Recent Jump</h1>
-                        <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="text-gray-600 mt-4 line-clamp-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <button class="bg-slate-200 px-3 py-2 rounded-lg mt-4 hover:bg-gray-300 transition duration-200">Learn More</button>
                     </div>
                 </div>
             </section>
     
-            <section class="flex justify-center mt-16 w-1/4">
+            <section class="flex justify-center mt-8 w-1/4">
                 <div class="flex flex-col rounded-lg shadow-md border-2">
-                    <img class="rounded-md" src="./assets/images/tatum.jpeg" alt="Josh Giddey" />
+                    <img class="rounded-md h-64 w-full object-cover" src="./assets/images/tatum.jpeg" alt="Josh Giddey" />
                     
-                    <div class="p-8 flex flex-col justify-start">
-                        <div class="flex gap-2 items-center">
-                            <p class="bg-red-500 px-3 py-1 rounded-lg">Bulls</p>
+                    <div class="p-8 mt-2 flex flex-col mx-auto">
+                        <div class="flex gap-4 items-center">
+                            <p class="bg-green-500 px-3 py-1 rounded-lg">Celtics</p>
                             <p class="text-gray-500">March 19th, 2025</p>
                         </div>
-                        <h1 class="font-bold text-4xl mt-2">Josh Giddey's Recent Jump</h1>
-                        <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <button class="bg-slate-200 px-3 py-2 rounded-lg mt-4 hover:bg-gray-300 transition duration-200">Learn More</button>
+                        <h1 class="font-bold text-4xl mt-4">How Good is Jayson Tatum?</h1>
+                        <p class="text-gray-600 mt-4 line-clamp-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="bg-slate-200 px-3 py-2 rounded-lg mt-6 hover:bg-gray-300 transition duration-200">Learn More</button>
                     </div>
                 </div>
             </section>
 
-            <section class="flex justify-center mt-16 w-1/4">
+            <section class="flex justify-center mt-8 w-1/4">
                 <div class="flex flex-col rounded-lg shadow-md border-2">
-                    <img class="h-56 rounded-md" src="./assets/images/curry.jpeg" alt="Josh Giddey" />
+                    <img class="rounded-md h-64 w-full object-cover" src="./assets/images/curry.jpeg" alt="Josh Giddey" />
                     
-                    <div class="p-8 flex flex-col justify-start">
+                    <div class="p-8 mt-2 flex flex-col justify-start">
                         <div class="flex gap-2 items-center">
-                            <p class="bg-blue-800 px-3 py-1 rounded-lg">Bulls</p>
+                            <p class="bg-yellow-500 px-3 py-1 rounded-lg">Warriors</p>
                             <p class="text-gray-500">March 19th, 2025</p>
                         </div>
-                        <h1 class="font-bold text-4xl mt-2">Josh Giddey's Recent Jump</h1>
-                        <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <button class="bg-slate-200 px-3 py-2 rounded-lg mt-4 hover:bg-gray-300 transition duration-200">Learn More</button>
+                        <h1 class="font-bold text-4xl mt-4">Pretenders or Contenders?</h1>
+                        <p class="text-gray-600 mt-4 line-clamp-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <button class="bg-slate-200 px-3 py-2 rounded-lg mt-6 hover:bg-gray-300 transition duration-200">Learn More</button>
                     </div>
                 </div>
             </section>
         </section>
+
+        <footer>
+            <div class="flex justify-center mt-16 border-t-2 pt-8">
+                <p class="text-gray-500">Made with ❤️ by Blendify. All rights reserved.</p>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
