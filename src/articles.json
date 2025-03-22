@@ -1,0 +1,29 @@
+[
+  {
+    "id": 3,
+    "title": "Josh Giddey's Recent Jump",
+    "team": "Bulls",
+    "teamColor": "bg-red-500",
+    "date": "March 19th, 2025",
+    "image": "./assets/images/giddey.jpeg",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+  },
+  {
+    "id": 2,
+    "title": "How Good is Jayson Tatum?",
+    "team": "Celtics",
+    "teamColor": "bg-green-500",
+    "date": "March 19th, 2025",
+    "image": "./assets/images/tatum.jpeg",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+  },
+  {
+    "id": 1,
+    "title": "Pretenders or Contenders?",
+    "team": "Warriors",
+    "teamColor": "bg-yellow-500",
+    "date": "March 19th, 2025",
+    "image": "./assets/images/curry.jpeg",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+  }
+]
