@@ -6,7 +6,8 @@
     "teamColor": "bg-red-500",
     "date": "March 19th, 2025",
     "image": "./assets/images/giddey.jpeg",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+    "link": "./articles/3-giddey.html"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "teamColor": "bg-green-500",
     "date": "March 19th, 2025",
     "image": "./assets/images/tatum.jpeg",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+    "link": "./articles/2-tatum.html"
   },
   {
     "id": 1,
@@ -24,6 +26,7 @@
     "teamColor": "bg-yellow-500",
     "date": "March 19th, 2025",
     "image": "./assets/images/curry.jpeg",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+    "link": "./articles/1-warriors.html"
   }
 ]
