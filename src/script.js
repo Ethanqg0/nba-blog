@@ -14,7 +14,6 @@ async function loadArticles() {
     const articleHTML = `
       <section class="flex-1 flex justify-center">
         <div class="flex flex-col rounded-lg shadow-md border-2 w-full transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:bg-gray-50">
-          <img class="h-64 w-full rounded-t-lg object-cover" src="${article.image}" alt="${article.title}" />
           <img class="rounded-t-lg h-64 w-full object-cover" src="${article.image}" alt="${article.title}" />
           <div class="p-8 flex flex-col justify-start">
             <div class="flex gap-4 items-center">
@@ -23,7 +22,6 @@ async function loadArticles() {
             </div>
             <h1 class="font-bold text-4xl mt-4">${article.title}</h1>
             <p class="text-gray-600 mt-4 line-clamp-6">${article.summary}</p>
-            <a class="w-full" href=${article.link}><button class="bg-slate-200 w-full px-3 py-2 rounded-lg mt-6 hover:bg-gray-300 transition duration-200">See More</button></a>
             <a href=${article.link}><button class="bg-slate-200 w-full  px-3 py-2 rounded-lg mt-6 hover:bg-gray-300 transition duration-200">See More</button></a>
           </div>
         </div>
